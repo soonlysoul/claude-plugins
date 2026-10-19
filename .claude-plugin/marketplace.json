@@ -6,12 +6,20 @@
   },
   "plugins": [
     {
-      "name": "flutter-forge",
+      "name": "plugin-flutter",
       "source": {
         "source": "github",
-        "repo": "soonlysoul/flutter-forge"
+        "repo": "soonlysoul/plugin-flutter"
       },
       "description": "Flutter/Dart project workflows: bootstrap, TDD features, Git hygiene, session recovery."
+    },
+    {
+      "name": "plugin-nixos",
+      "source": {
+        "source": "github",
+        "repo": "soonlysoul/plugin-nixos"
+      },
+      "description": "Gérer la configuration NixOS d'un poste : la trouver ou la reprendre de /etc/nixos, prouver une option avant de l'écrire, vérifier sans privilège, proposer sans appliquer."
     }
   ]
 }
