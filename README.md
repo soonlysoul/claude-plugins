@@ -1,6 +1,6 @@
 # Marketplace Claude Code `soon`
 
-Le catalogue des plugins Claude Code de Soon. Il ne contient pas de code : chaque plugin vit dans son propre dépôt, que ce catalogue référence.
+Le catalogue des plugins Claude Code de Soon. Il ne contient pas de code : chaque plugin vit dans son propre dépôt, Ce que ce catalogue référence.
 
 | Plugin | Rôle | Dépôt |
 | --- | --- | --- |
