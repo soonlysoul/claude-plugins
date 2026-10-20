@@ -4,12 +4,12 @@ Le catalogue des plugins Claude Code de Soon. Il ne contient pas de code : chaqu
 
 | Plugin | Rôle | Dépôt |
 | --- | --- | --- |
-| `plugin-flutter` | Workflows pour projets Flutter et Dart : bootstrap, fonctionnalités en TDD, Git propre, reprise de session, garde-fous | [soonlysoul/plugin-flutter](https://github.com/soonlysoul/plugin-flutter) |
+| `plugin-flutter` | Workflows pour projets Flutter et Dart : bootstrap, fonctionnalités en TDD, Git propre, reprise de session, GitHub (PR et CI), débogage, garde-fous | [soonlysoul/plugin-flutter](https://github.com/soonlysoul/plugin-flutter) |
 | `plugin-nixos` | Configuration NixOS d'un poste : la trouver ou la reprendre de `/etc/nixos` dans un dépôt git, prouver une option avant de l'écrire, vérifier sans privilège, proposer sans appliquer, garde-fous | [soonlysoul/plugin-nixos](https://github.com/soonlysoul/plugin-nixos) |
 
 ## Installer sur un appareil
 
-Prérequis : Claude Code 2.1.295 ou plus, et `git`. Chaque plugin a ses propres prérequis : `plugin-flutter` demande aussi `jq` et Flutter, `plugin-nixos` demande un poste NixOS. Aucun compte GitHub n'est nécessaire, car les dépôts sont publics.
+Prérequis : Claude Code 2.1.295 ou plus, et `git`. Chaque plugin a ses propres prérequis : `plugin-flutter` demande aussi `jq` et Flutter (et `gh` connecté pour GitHub, gitleaks recommandé), `plugin-nixos` demande un poste NixOS. Aucun compte GitHub n'est nécessaire, car les dépôts sont publics.
 
 ```bash
 claude plugin marketplace add soonlysoul/claude-plugins
