@@ -19,7 +19,7 @@
         "source": "github",
         "repo": "soonlysoul/plugin-nixos"
       },
-      "description": "Gérer la configuration NixOS d'un poste : la trouver ou la reprendre de /etc/nixos, prouver une option avant de l'écrire, vérifier sans privilège, proposer sans appliquer."
+      "description": "Gérer la configuration NixOS d'un poste depuis Claude Code : la trouver ou la reprendre de /etc/nixos dans un dépôt git, prouver une option avant de l'écrire, vérifier sans privilège, et s'arrêter sur la commande à lancer soi-même. Un garde refuse d'activer, d'installer impérativement et de détruire des générations."
     },
     {
       "name": "plugin-plugin",
