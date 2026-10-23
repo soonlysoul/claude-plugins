@@ -27,7 +27,7 @@
         "source": "github",
         "repo": "soonlysoul/plugin-plugin"
       },
-      "description": "Frame, scaffold, test and publish Claude Code plugins at the plugin-flutter model: TDD components, evals, release, re-audit."
+      "description": "Frame, scaffold, test and publish Claude Code plugins to a documented model of its own: TDD components, evals, release, re-audit."
     }
   ]
 }

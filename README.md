@@ -6,7 +6,7 @@ Le catalogue des plugins Claude Code de Soon. Il ne contient pas de code : chaqu
 | --- | --- | --- |
 | `plugin-flutter` | Workflows pour projets Flutter et Dart : bootstrap, fonctionnalités en TDD, Git propre, reprise de session, GitHub (PR et CI), débogage, garde-fous | [soonlysoul/plugin-flutter](https://github.com/soonlysoul/plugin-flutter) |
 | `plugin-nixos` | Gérer la configuration NixOS d'un poste depuis Claude Code : la trouver ou la reprendre de /etc/nixos dans un dépôt git, prouver une option avant de l'écrire, vérifier sans privilège, et s'arrêter sur la commande à lancer soi-même. Un garde refuse d'activer, d'installer impérativement et de détruire des générations. | [soonlysoul/plugin-nixos](https://github.com/soonlysoul/plugin-nixos) |
-| `plugin-plugin` | Frame, scaffold, test and publish Claude Code plugins at the plugin-flutter model: TDD components, evals, release, re-audit. | [soonlysoul/plugin-plugin](https://github.com/soonlysoul/plugin-plugin) |
+| `plugin-plugin` | Frame, scaffold, test and publish Claude Code plugins to a documented model of its own: TDD components, evals, release, re-audit. | [soonlysoul/plugin-plugin](https://github.com/soonlysoul/plugin-plugin) |
 
 ## Installer sur un appareil
 
