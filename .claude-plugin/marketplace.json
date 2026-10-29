@@ -28,6 +28,14 @@
         "repo": "soonlysoul/plugin-plugin"
       },
       "description": "Frame, scaffold, test and publish Claude Code plugins to a documented model of its own: TDD components, evals, release, re-audit."
+    },
+    {
+      "name": "plugin-orchestrator",
+      "source": {
+        "source": "github",
+        "repo": "soonlysoul/plugin-orchestrator"
+      },
+      "description": "Drives a software project from zero to delivery through project-level documents, shared Git, GitHub, TDD, recovery and debugging workflows, and multi-part coordination, delegating all language-specific work to the specialized plugins."
     }
   ]
 }
