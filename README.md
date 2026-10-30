@@ -8,6 +8,7 @@ Le catalogue des plugins Claude Code de Soon. Il ne contient pas de code : chaqu
 | `plugin-nixos` | Gérer la configuration NixOS d'un poste depuis Claude Code : la trouver ou la reprendre de /etc/nixos dans un dépôt git, prouver une option avant de l'écrire, vérifier sans privilège, et s'arrêter sur la commande à lancer soi-même. Un garde refuse d'activer, d'installer impérativement et de détruire des générations. | [soonlysoul/plugin-nixos](https://github.com/soonlysoul/plugin-nixos) |
 | `plugin-plugin` | Frame, scaffold, test and publish Claude Code plugins to a documented model of its own: TDD components, evals, release, re-audit. | [soonlysoul/plugin-plugin](https://github.com/soonlysoul/plugin-plugin) |
 | `plugin-orchestrator` | Drives a software project from zero to delivery through project-level documents, shared Git, GitHub, TDD, recovery and debugging workflows, and multi-part coordination, delegating all language-specific work to the specialized plugins. | [soonlysoul/plugin-orchestrator](https://github.com/soonlysoul/plugin-orchestrator) |
+| `plugin-motion` | Make Remotion motion-design videos storyboard-first: set up a checked video project, storyboard a brief, build each scene in a render-and-review loop, sync animations to a voiceover, and render a final MP4 verified against the storyboard. | [soonlysoul/plugin-motion](https://github.com/soonlysoul/plugin-motion) |
 
 ## Installer sur un appareil
 
@@ -19,6 +20,7 @@ claude plugin install plugin-flutter@soon --scope user
 claude plugin install plugin-nixos@soon --scope user
 claude plugin install plugin-plugin@soon --scope user
 claude plugin install plugin-orchestrator@soon --scope user
+claude plugin install plugin-motion@soon --scope user
 ```
 
 Sur un NixOS fraîchement installé, où ni Claude Code ni git ne sont encore déclarés, voir le [README de `plugin-nixos`](https://github.com/soonlysoul/plugin-nixos#installer).
